@@ -2,9 +2,6 @@
   "name": "pro_one_react",
   "version": "1.0.0",
   "description": "Project-React.",
-  "engines": {
-    "node": "14.18.0"
-  },
   "scripts": {
     "preinstall": "npm set audit false",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
