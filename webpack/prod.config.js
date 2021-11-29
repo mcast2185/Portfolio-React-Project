@@ -93,7 +93,7 @@ module.exports = webpackMerge(webpackCommon, {
     }),
     new DefinePlugin({
       "process.env": {
-        NODE_ENV: "production"
+        NODE_ENV: '"production"'
       }
     }),
     new ExtractTextPlugin("[name]-[chunkhash].min.css"),
